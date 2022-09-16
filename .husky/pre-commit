@@ -6,12 +6,10 @@ npm run check-types || (
     false;
 )
 
+echo  ' 😇Prettier Formatting ... ';
 npm run check-format || (
-    echo '❌ Failed format check. ❌\n 😇Prettier Formatting ... ';
-        npm run format || (
-        echo '❌ Failed prettier format. ❌';
-        false;
-    )
+    echo '❌ Failed to run prettier format. ❌';
+    false;
 )
 
 npm run check-lint || (
