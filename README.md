@@ -2,7 +2,7 @@
 ### To install:
 ```
 yarn
-yarn 
+yarn prepare
 chmod ug+x .husky/*
 chmod ug+x .git/hooks/*
 ```
